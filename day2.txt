@@ -1,0 +1,18 @@
+import java.net.SocketOption;
+import java.util.Scanner;
+public class day2 {
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter a character");
+        char ch=sc.next().charAt(0);
+        if(ch>=65 && ch<=97)
+        {
+            System.out.println("character");
+        }
+        else
+            System.out.println("not a character");
+
+    }
+}
+

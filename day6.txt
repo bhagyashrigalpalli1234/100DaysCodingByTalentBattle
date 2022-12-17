@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class day6 {
+    public static void main(String args[])
+    {
+       Scanner sc=new Scanner(System.in);
+       int x=sc.nextInt();
+       int y=sc.nextInt();
+       if(x>0 && y>0)
+           System.out.println("The points lies in first quadrant");
+       else if(x<0 && y>0)
+           System.out.println("The points lies in second quadrant");
+       else if(x<0 && y<0)
+           System.out.println("The points lies in Third quadrant");
+       else
+           System.out.println("The points lies in fourth quadrant");
+
+
+    }
+}
